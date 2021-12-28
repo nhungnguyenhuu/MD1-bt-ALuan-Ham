@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+function tinhHieu(arr) {
+    let Hieu = arr[0];
+    for(let i=1; i<arr.length; i++){
+        Hieu -=arr[i];
+    }
+    return Hieu;
+}
+let arr=[1, 3, 12, 11, 42];
+console.log(tinhHieu(arr));
+</script>
+</body>
+</html>

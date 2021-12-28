@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkNamNhuan(n) {
+        if(n%4 == 0){
+            if(n%100!=0){
+                document.write(n + " la nam nhuan");
+            }else if(n%400==0){
+                document.write(n + " la nam nhuan");
+            } else{
+                document.write(n + " khong la nam nhuan");
+            }
+        }else{
+            document.write(n + " khong la nam nhuan");
+        }
+    }
+    checkNamNhuan(2100);
+</script>
+
+</body>
+</html>
